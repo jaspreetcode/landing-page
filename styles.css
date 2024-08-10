@@ -4,13 +4,41 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: #1F2937;
+    height: 50px;
+}
+
 .container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
-    background-color: aqua;
+    height: 100%;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #F9FAF8;
 }

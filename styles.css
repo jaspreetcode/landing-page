@@ -13,8 +13,12 @@ header {
     width: 70%;
     margin: 0 auto;
     height: 100%;
+}
+
+header .container {
     display: flex;
     flex-direction: column;
+    height: 90%;
 }
 
 ul {
@@ -177,3 +181,5 @@ ul {
     justify-content: flex-end;
     font-weight: bold;
 }
+
+/* Call to action styling */

@@ -230,3 +230,16 @@ ul {
     font-size: 17px;
     font-weight: bold;
 }
+
+/* Footer styling */
+footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #E5E7EB;
+}

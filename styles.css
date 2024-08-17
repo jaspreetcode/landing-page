@@ -160,6 +160,7 @@ ul {
 
 .quote-content .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -183,3 +184,49 @@ ul {
 }
 
 /* Call to action styling */
+.call-action {
+    height: 300px;
+}
+
+.call-action .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-box {
+    background-color: #3882F6;
+    width: 100%;
+    padding: 40px 100px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-box .text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.call-box .text :nth-child(1) {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.call-box .text :nth-child(2) {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+.call-box .signup {
+    background-color: transparent;
+    border: 3px solid #E5E7EB;
+    color: white;
+    border-radius: 10px;
+    padding: 0px 40px;
+    font-size: 17px;
+    font-weight: bold;
+}
